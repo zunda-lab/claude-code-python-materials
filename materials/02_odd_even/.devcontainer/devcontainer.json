@@ -1,0 +1,8 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/python:3.13",
+  "remoteUser": "vscode",
+  "containerUser": "vscode",
+  "workspaceFolder": "/workspace",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+  "postCreateCommand": "bash -lc 'curl -fsSL https://claude.ai/install.sh | bash'"
+}
